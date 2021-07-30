@@ -2,7 +2,7 @@
 # define B_HPP
 # include "Base.hpp"
 
-class B
+class B : public Base
 {
 	public:
 		B();

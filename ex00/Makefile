@@ -15,5 +15,6 @@ clean :
 
 fclean : clean
 	rm -rf $(TARGET)
+	rm -rf $(TARGET).dYSM
 
 re : clean all

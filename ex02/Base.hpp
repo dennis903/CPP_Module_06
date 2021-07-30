@@ -3,6 +3,6 @@
 class Base
 {
 	public:
-		virtual ~Base();
+		virtual ~Base() {};
 };
 #endif
